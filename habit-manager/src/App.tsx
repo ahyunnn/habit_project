@@ -1,11 +1,12 @@
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h3>Habit Manager</h3>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   );
-}
+};
 
 export default App;
