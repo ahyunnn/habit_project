@@ -1,8 +1,7 @@
 const Home = () => {
   return (
     <div>
-      {/* scoll section */}
-      <h3>Intro</h3>
+      <h3>home</h3>
     </div>
   );
 };
